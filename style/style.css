@@ -1,0 +1,155 @@
+body {
+    --bleuFonce : #3C4FA0;
+    --bleuMoyen : #4488C5;
+    --bleuClair : #8FC1E6;
+    font-family: 'Calibri';
+    background-image: url("../Images/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+.affficheAttention {
+    background-color: white;
+    border: solid 3px var(--bleuClair);
+    border-radius: 10px;
+}
+
+.troisBouton {
+    margin-right: 10%;
+}
+
+.boxBouton {
+    width: 25%;
+}
+
+.alignTable {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.maNav {
+    background-color: var(--bleuFonce);
+}
+
+.logonav {
+    width: 90%;
+    
+}
+
+.mesBoutonsAjouter{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    
+}
+
+.formConnexion {
+    background-color: var(--bleuFonce);
+    color: white;
+    border: solid 3px white;
+    border-radius: 10px;
+    width: 50%;
+    max-width: 500px;
+}
+
+.inputText {
+    border-radius: 5px;
+    border: none;
+    color: var(--bleuMoyen);
+    font-weight: 600;
+}
+
+.inputText:focus {
+    outline-color: var(--bleuMoyen);
+}
+
+
+.maCarte{
+    background-color: var(--bleuFonce);
+    color: white;
+    border-radius: 10px;
+    border: solid 3px white;
+    text-decoration: none;
+    
+}
+
+.maCarte:hover{
+    background-color: var(--bleuMoyen);
+    text-decoration: none;
+}
+
+.lienCarte{
+    text-decoration: none;
+}
+
+.contourAdmin {
+    background-color: var(--bleuFonce);
+    border: solid 3px white;
+}
+
+.maTableAdmin {
+    border-radius: 30px;
+}
+
+.table-striped>tbody>tr:nth-child(even)>td, 
+.table-striped>tbody>tr:nth-child(even)>th,
+.table-striped>thead>tr:nth-child(odd)>th {
+   background-color: var(--bleuClair);
+ }
+
+.maRecherche {
+    width: 500px;
+}
+
+.espaceBouton {
+    margin-right: 20px;
+}
+
+
+.bouton {
+    background-color: var(--bleuMoyen);
+    color: white;
+    border: solid 3px white;
+}
+
+.bouton:hover {
+    background-color: var(--bleuClair);
+    border: solid 3px white;
+}
+
+.boutonPopup {
+    background-color: var(--bleuMoyen);
+    color: white;
+    border: solid 3px white;
+}
+
+.boutonPopup:hover {
+    background-color: var(--bleuClair);
+    border: solid 3px white;
+}
+
+.modal-content {
+    background-color: var(--bleuFonce);
+}
+
+.btnDeconnexion {
+    color: white;
+    text-decoration: none;
+}
+
+.btnDeconnexion:hover {
+    color: var(--bleuMoyen);
+}
+
+.imgDeconnexion {
+    width: 40px;
+}
+
+@media screen and (max-width: 992px) { /*LARGE*/
+    .formConnexion {
+        width: 100%;
+    }
+    
+}
